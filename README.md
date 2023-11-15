@@ -5,6 +5,7 @@ This is a simple PowerShell 1-liner to parse data breach json files from Have I 
 Example using the Chess data breach:
 
 Edit $searchTerm = 'DATA BREACH NAME' to be $searchTerm = 'Chess'
+
 Edit $vipList = 'vip1', 'vip2'` to be $vipList = 'ciso', 'president'
 
 Then copy the 1-liner and run it, or run the .ps1. 
