@@ -1,6 +1,6 @@
 # HIBPParse 
 
-This is a simple PowerShell 1-liner to parse data breach json files from Have I Been Pwned. In order to get these files you have to have your domain registered under their website for a fee. Just download the Json, name it pwned.json. There shouldn't be any @'s or domains in the json format but if there is you may need to parse that out first. Edit the powershell script variable at the beginning to reference the data breach of your choosing, then run the 1-liner in the same directory. There is a VIP section that you can edit to include your list of special users that you would want to be notified of immediately (C-suite, presidents, infosec professionals) if they were breached.
+This is a simple PowerShell 1-liner to parse data breach json files from Have I Been Pwned. In order to get these files you have to have your domain registered under their website for a fee. Just download the Json, name it pwned.json. There shouldn't be any @'s or domains in the json format but if there is you may need to parse that out first. There is a VIP section that you can edit to include your list of special users that you would want to be notified of immediately (C-suite, presidents, infosec professionals) if they were breached.
 
 Example using the Chess data breach:
 
